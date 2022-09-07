@@ -142,6 +142,34 @@
     cursor: zoom-in ;
 }
 
+.img2{
+    background-image: url(/img/2.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 447px;
+    height: 645px;
+}
+
+#img2b:hover{
+    background-image: url(/img/2b.webp);
+    cursor: zoom-in ;
+}
+
+.img3{
+    background-image: url(/img/3.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 447px;
+    height: 645px;
+}
+
+#img3b:hover{
+    background-image: url(/img/3b.webp);
+    cursor: zoom-in ;
+}
+
 /* ------------------- */
 
     /* flexs */
@@ -152,6 +180,12 @@
         justify-content: space-between;
         align-items: center;
         height: 100%;
+    }
+
+    .flexsection{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 50px;
     }
 
     .flexmfig{
