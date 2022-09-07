@@ -126,7 +126,7 @@
 
 /* ------------------- */
 
-/*------ bkimg------- */
+/*--------------------------------- bkimg------------------------------ */
 
 .img1{
     background-image: url(/img/1.webp);
@@ -170,7 +170,49 @@
     cursor: zoom-in ;
 }
 
-/* ------------------- */
+.img4{
+    background-image: url(/img/4.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 447px;
+    height: 645px;
+}
+
+#img4b:hover{
+    background-image: url(/img/4b.webp);
+    cursor: zoom-in ;
+}
+
+.img5{
+    background-image: url(/img/5.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 447px;
+    height: 645px;
+}
+
+#img5b:hover{
+    background-image: url(/img/5b.webp);
+    cursor: zoom-in ;
+}
+
+.img6{
+    background-image: url(/img/6.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 447px;
+    height: 645px;
+}
+
+#img6b:hover{
+    background-image: url(/img/6b.webp);
+    cursor: zoom-in ;
+}
+
+/* -------------------------------------------------------- */
 
     /* flexs */
 
@@ -185,7 +227,7 @@
     .flexsection{
         display: flex;
         justify-content: space-between;
-        margin-bottom: 50px;
+        margin-bottom: 48px;
     }
 
     .flexmfig{
