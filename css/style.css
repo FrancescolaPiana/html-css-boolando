@@ -6,4 +6,75 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  font-family:'Roboto', sans-serif;
 }
+
+.simple{
+    text-decoration: none;
+}
+
+.upborder{
+    background-color: #FF6900;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.315);
+    height: 70px;
+}
+
+.buttons{
+    display: inline-block;
+}
+ 
+.constrictor{
+    max-width: 1380px;
+    margin: 0 auto;
+}
+
+.width{
+    display: inline-block;
+    width: 134px;
+}
+
+.mrg{
+    margin-right: 6px;
+}
+
+/*------ colors------- */
+
+.white{
+    color: white;
+}
+
+/* ------------------- */
+
+
+/*------ fonts------- */
+
+.font1{
+    font-size: 17px;
+    font-weight: 700;
+}
+
+/* ------------------- */
+
+/*------ bkimg------- */
+
+.img1{
+    background-image: url(/img/1.webp);
+}
+
+/* ------------------- */
+
+    /* flexs */
+
+    .flexheader{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+    }
+    
+
+
+
+       
+            
