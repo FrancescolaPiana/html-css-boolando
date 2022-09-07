@@ -27,6 +27,12 @@
     height: 70px;
 }
 
+.underborder{
+    background-color: #1a1a1a;
+    box-shadow: 0px -2px 3px rgba(0, 0, 0, 0.315);
+    height: 100px;
+}
+
 .buttons{
     display: inline-block;
 }
@@ -70,6 +76,10 @@
     line-height: 150%;
     font-size: 20px;
     margin-left: 5px;
+}
+
+.socialicons{
+    font-size: 20px;
 }
 
 .heart:hover{
@@ -230,6 +240,12 @@
         margin-bottom: 48px;
     }
 
+    .flexfooter{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+
     .flexmfig{
         display: flex;
         justify-content: space-between;
@@ -247,7 +263,21 @@
         margin-bottom: 42px;
     }
     
+    .flexbotl{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding-top: 20px;
+        height: 80px;
+    }
 
+    .flexbotr{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding-top: 20px;
+        height: 80px;
+    }
 
 
        
